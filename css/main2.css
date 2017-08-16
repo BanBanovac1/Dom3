@@ -1,0 +1,136 @@
+.main2 {
+    position: relative;
+    overflow-y: visible;
+    overflow-x: visible;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-top: 0.0625em;
+    padding-left: 55.1%;
+    height: 30.237em;
+    /*background-image: url('./images/cards.png');*/
+    background-repeat: no-repeat;
+    background-position: 0.714em 2.475em; 
+    background-size: 29.76em; 
+    background-color: rgb(252, 253, 253);
+}
+
+.main2-content {
+    margin-top: 10.627em;
+    width: 85.42%;
+}
+
+.main2-tag {
+    font-weight: bold;
+    letter-spacing: 0.117em;
+    display: inline-block;
+    padding: 0.833em 3.583em 0.917em 3.5em;
+    font-size: 0.535em;
+    color: rgb(20,165,184);
+    background-color: rgb(164,232,241);
+    border-radius: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+.main2-title {
+    font-size: 1.329em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.839em;
+    letter-spacing: 0.007em;
+}
+
+.main2-title-span {
+    color: rgb(1, 193, 218);
+}
+
+.main2-text {
+    line-height: 1.84;
+    font-size: 0.849em;
+    color: #8e9292;
+}
+
+.cards-mobile {
+	display: none;
+}
+
+.cards {
+	position: absolute;
+	display: block;
+	width: 42.687em;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1235px) {
+    .cards {
+        width: 38.688em;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 1122px) {
+    .cards {
+        width: 32.688em;
+        top: 15%;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .cards {
+        width: 25.688em;
+        top: 20%;
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 120px) and (max-width: 767px) { 
+	.main2 {
+		position: relative;
+        font-size: 16px;
+        padding-top: 2.156em;
+        padding-left: 8.67%;
+        height: 39.379em;
+        background-size: 95%;
+        background-position: 20% bottom;
+    }
+
+    .main2-tag {
+        font-size: 0.625em;
+        letter-spacing: 0.12em;
+        padding: 0.8em 2em 0.8em 2em;
+        margin-bottom: 0.877rem;
+        font-weight: bold;
+        color: #1dbb69;
+        background-color: #a7f2cb;
+        border-radius: 0.3em;
+        margin-bottom: 1.55em;
+    }
+
+    .main2-title {
+        font-size: 1.875em;
+        line-height: 1.08;
+        letter-spacing: 0.01em;
+        margin-bottom: 1.083em;
+    }
+
+    .main2-text {
+        font-size: 0.938em;
+    }
+    .main2-content {
+        margin-top: 0;
+        width: 95%;
+    }
+	.cards {
+		display: none;
+	}
+	.cards-mobile {
+		display: block;
+		position: absolute;
+        top: auto;
+		width: 18.906em;
+		height: 18.281em;
+		left: 1.7em;
+	}
+}

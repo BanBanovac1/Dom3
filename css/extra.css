@@ -1,0 +1,118 @@
+.extra {
+    font-size: 16px;
+    height: 30.327em;
+    padding-left: 11.13%;
+    padding-top: 9.679em;
+    background-color: #fafafa;
+}
+
+.extra > * {
+    display: inline-block;
+}
+
+.extra-titleText {
+    width: 48.74%;
+    margin-right: 2.675em;
+}
+
+.extra-title {
+    font-size: 1.869em;
+    font-weight: bold;
+    line-height: 1.08;
+    margin-bottom: 0.886em;
+    color: #212728;
+}
+
+.extra-title-span {
+    color: #01c1da;
+}
+
+.extra-text {
+    font-size: 0.938em;
+    color: #8e9292;
+    line-height: 1.5;
+}
+
+.ellipse-align > * {
+    display: inline-block;
+}
+
+.ellipse {
+    width: 4.031em;
+    height: 4.031em;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 0 rgba(18, 106, 118, 0.25);
+    text-align: center;
+}
+
+.ellipse:not(:last-child) {
+    margin-right: 1.093em;
+}
+
+.ellipse-img {
+    width: 1.969em;
+    height: 1.375em;
+    margin-top: 1.344em; 
+}
+
+@media screen and (min-width: 120px) and (max-width: 767px) { 
+	.extra {
+        font-size: 16px;
+        height: 22.327em;
+        padding-left: 8.67%;
+        padding-top: 4.679em;
+        background-color: #fafafa;
+    }
+
+    .extra > * {
+        display: block;
+    }
+
+    .extra-titleText {
+        width: 90%;
+        margin: initial;
+        margin-bottom: 3.094em;
+    }
+
+    .extra-title {
+        font-size: 1.869em;
+        font-weight: bold;
+        line-height: 1.08;
+        margin-bottom: 0.886em;
+        color: #212728;
+    }
+
+    .extra-title-span {
+        color: #01c1da;
+    }
+
+    .extra-text {
+        font-size: 0.938em;
+        color: #8e9292;
+        line-height: 1.5;
+    }
+
+    .ellipse-align > * {
+        display: inline-block;
+    }
+
+    .ellipse {
+        width: 4.031em;
+        height: 4.031em;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px 0 rgba(18, 106, 118, 0.25);
+		text-align: center;
+    }
+
+    .ellipse:not(:last-child) {
+        margin-right: 1.094em;
+    }
+	
+	.ellipse-img {
+		width: 1.968em;
+		height: 1.375em;
+		margin-top: 1.344em;
+	}
+}

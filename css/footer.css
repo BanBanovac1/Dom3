@@ -1,0 +1,74 @@
+.footer {
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(241, 242, 244);
+    box-sizing: border-box;
+    bottom: 0;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-top: 9.139em;
+   -ms-transform: scale(2, 1.7);
+   -webkit-transform: scale(2, 1.7);
+    transform: scale(2, 1.7);
+}
+
+.footer-text {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 30%;
+    padding-bottom: 7.063rem;
+    transform: scale(0.5, 0.588);
+}
+
+.footer-title {
+    font-size: 1.311em;
+    color: #283436;
+    margin-bottom: 1.054em;
+}
+
+.footer-title-span {
+    font-family: RalewayExtraBold;
+}
+
+.footer-rights {
+    font-size: 0.758em;
+    color: #6f7277;
+}
+
+@media screen and (min-width: 120px) and (max-width: 767px) { 
+	.footer {
+        position: static;
+        width: 100%;
+        font-size: 16px;
+        height: 15.938em;
+        background-color: rgb(241, 242, 244);
+        box-sizing: border-box;
+        margin-top: 0em;
+        border-radius: 0;
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .footer > * {
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .footer-text {
+        margin-top: 2em;
+        margin-left: 8.67%;
+    }
+
+    .footer-title {
+        font-size: 1.181em;
+        margin-bottom: 0.634em;
+    }
+
+    .footer-rights {
+        font-size: 0.781em;
+    }
+}

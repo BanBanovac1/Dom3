@@ -1,0 +1,316 @@
+.header {
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    background-color: rgb(1, 193, 218);
+    height: 38.555em;
+    padding-top: 2.188em;
+    padding-left: 7.58%;
+}
+
+.radio-mobile {
+	display: none;
+}
+
+ .radio {
+    display: block;
+    width: 85.375em;
+    height: auto;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    z-index: 1;
+}
+
+.header-top {
+    margin-bottom: 9.204em;
+/*    border: 1px solid red;*/
+}
+
+.header-top-title {
+	position: relative;
+	z-index: 1;
+    display: inline-block;
+    font-size: 1.026em;
+    color: white;
+    margin-right: 55.02%;
+}
+
+.header-top-title-span {
+    font-family: RalewayExtraBold;
+}
+
+.menu-icon {
+    display: none;
+}
+
+ul {
+	position: relative;
+	z-index: 1;
+    width: 14.987em;
+    padding-left: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:not(:last-child) {
+    margin-right: 1.579em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.803em;
+}
+
+ul li:last-child a {
+    background-color: rgb(83, 213, 230);
+    border-radius: 0.167em;
+    padding: 0.444em 1.445em 0.444em 1.445em;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    
+}
+
+.header-main {
+    width: 48.74%;
+	position: relative;
+	z-index: 1;
+}
+
+.header-main-intro {
+    font-size: 1.071em;
+    color: #10808f;
+    margin-bottom: 1.167em;
+}
+
+.header-main-intro-span {
+    font-weight: bold;
+}
+
+.header-main-title {
+    font-size: 2.676em;
+    color: white;
+    margin-bottom: 0.65em;
+}
+
+.header-main-title-span {
+    font-weight: bold;
+}
+
+.header-main-text {
+    line-height: 1.4;
+    font-size: 1.106em;
+    color: white;
+    margin-bottom: 1.25em;
+}
+
+.header-main-button {
+	position: relative;
+    text-decoration: none;
+    font-size: 0.946em;
+    color: white;
+    background-color: rgb(83, 213, 230);
+    border-radius: 0.142em;
+    padding: 0.519em 0.943em 0.519em 0.991em;
+	z-index: 1;
+}
+
+@media screen and (max-width: 1285px) {
+	.header {
+		font-size: 15.051px;
+	}
+} 
+
+@media screen and (max-width: 1208px) {
+	.header {
+		font-size: 14.149px;
+	}
+} 
+
+@media screen and (max-width: 1136px) {
+	.header {
+		font-size: 13.306px;
+	}
+} 
+
+@media screen and (max-width: 1070px) {
+	.header {
+		font-size: 12.533px;
+	}
+} 
+
+@media screen and (max-width: 1008px) {
+	.header {
+		font-size: 11.807px;
+	}
+} 
+
+@media screen and (max-width: 951px) {
+	.header {
+		font-size: 11.139px;
+	}
+} 
+
+@media screen and (max-width: 898px) {
+	.header {
+		font-size: 10.518px;
+	}
+} 
+
+@media screen and (max-width: 848px) {
+	.header {
+		font-size: 9.932px;
+	}
+} 
+
+@media screen and (max-width: 802px) {
+	.header {
+		font-size: 9.394px;
+	}
+} 
+
+@media screen and (min-width: 120px) and (max-width: 767px) { 
+	.header {
+        font-size: 16px;
+		overflow-y: visible;
+		overflow-x: visible;
+        position: relative;
+        height: 43.5em;
+        padding: 0;
+        background-image: none;
+         -webkit-transform: skewY(-2deg);
+        -moz-transform: skewY(-2deg);
+        -ms-transform: skewY(-2deg);
+        -o-transform: skewY(-2deg);
+        transform: skewY(-2deg);
+    }
+	.radio-mobile {
+		display: block;
+		pointer-events: none;
+		position: absolute;
+		width: 30.201em;
+		height: auto;
+		top: -1.5em;
+		left: 0;
+		z-index: 5;
+	}
+	@media screen and (max-width: 418px ) {
+		 .radio-mobile {
+			font-size: 14px;
+			top: 1.5em;
+		}
+		.header {
+			height: 41em;
+		} 
+	}
+	@media screen and (max-width: 369px ) {
+		.header {
+			font-size: 14.5px;
+		}
+		.radio-mobile {
+			font-size: 12.5px;
+			top: 1em;
+			left: 0em;
+		}
+	}
+	@media screen and (max-width: 332px ) {
+		.radio-mobile {
+			left: -2em;
+		}
+	}
+	@media screen and (max-width: 309px ) {
+		.header {
+			font-size: 12.5px;
+		}
+		.radio-mobile {
+		font-size: 11px;
+			left: -1em;
+		}
+		.header-top-title {
+			margin-right: 50%;
+		}
+	}
+	
+    .radio {
+        display: none;
+    }
+    .header > * {
+        -webkit-transform: skewY(2deg);
+        -moz-transform: skewY(2deg);
+        -ms-transform: skewY(2deg);
+        -o-transform: skewY(2deg);
+        transform: skewY(2deg);
+    }
+    .header-background {
+        position: absolute;
+		z-index: 1000;
+		border: 1px solid red;
+		background-color: transparent;
+        z-index: 2;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 120%;
+        /*background-image: url('./images/radio-mobile.png');*/
+    }
+    .header-top {
+		position: relative;
+		z-index: 10;
+        background-color: white;
+        padding-top: 1.375em;
+        padding-left: 4.67%;
+        padding-bottom: 0.969em;
+        margin-bottom: 4.844em;
+        box-shadow: 0 0 22px 0 rgba(24, 24, 24, 0.2);
+    }
+    .header-top-title {
+        font-size: 1.131em;
+        color: #01c1da;
+        margin-right: 60.6%;
+    }
+    .menu-icon {
+        display: inline-block;
+        width: 24.5px;
+        height: 22.5px;
+        /*width: 6.53%;
+        height: auto;*/
+    }
+    ul {
+        display: none;
+    }
+    .header-main {
+		position: relative;
+		z-index: 10;
+        padding-left: 8.67%;
+        width: 85%;
+    }
+    .header-main-intro {
+        font-size: 0.938em;
+        margin-bottom: 0.9em;
+    }
+    .header-main-title {
+        font-size: 1.875em;
+        margin-bottom: 0.9em;
+    }
+    .header-main-text {
+		position: relative;
+		z-index: 1000;
+        font-size: 0.938em;
+        line-height: 1.5;
+        margin-bottom: 2.5em;
+    }
+    .header-main-button {
+		background-color: rgba(83, 213, 230, 0.7);
+        font-size: 1.106em;
+        border-radius: 0.085em;
+        padding: 0.932em 2.542em 0.878em 2.571em;
+        box-shadow: 5px 8.7px 12px 0 rgba(24, 24, 24, 0.14);
+    }
+}
